@@ -1,5 +1,11 @@
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="bg-gray-200 w-full h-screen">
+      <div className="w-full h-screen flex items-center justify-center">
+        <p className="text-lg">Hello!</p>
+      </div>
+    </div>
+  );
 }
 
 export default App;
