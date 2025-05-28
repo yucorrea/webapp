@@ -10,13 +10,13 @@ function App() {
             <input
               type="email"
               placeholder="Digite seu e-mail"
-              className=" w-full h-12 border border-gray-400 rounded-lg px-2"
+              className=" w-full h-12 border border-gray-400 rounded-lg px-2 focus:outline-none focus:border-amber-600"
             />
 
             <input
               type="password"
               placeholder="Digite sua senha"
-              className=" w-full h-12 border border-gray-400 rounded-lg px-2 focus:border-red-50"
+              className=" w-full h-12 border border-gray-400 rounded-lg px-2 focus:outline-none focus:border-amber-600"
             />
 
             <button className="w-full mt-6 bg-amber-600 h-12 rounded-lg cursor-pointer hover:bg-amber-700 transition-all">
